@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spark Labs — AI Tools for Modern Teams</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <div class="logo-spark">⚡</div>
+      <span class="logo-name">Spark<span>Labs</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Products</a></li>
+      <li><a href="model.html">Business Model</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Get Early Access</a>
+    <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+
+    <div class="hero-inner">
+      <div style="animation: fadeUp 0.8s ease both;">
+        <div class="hero-badge">
+          <div class="badge-dot"></div>
+          <span class="badge-text">Now live — 4,200+ teams onboarded</span>
+        </div>
+        <h1 class="hero-title">
+          STOP<br>
+          <span class="orange">WASTING</span><br>
+          <span class="yellow">TIME.</span>
+        </h1>
+        <p class="hero-desc">Spark Labs builds AI-powered productivity tools that help startups, SMEs, and remote teams do in 1 hour what used to take a whole day.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn btn-orange">Start Free Trial ↗</a>
+          <a href="services.html" class="btn btn-cream" style="background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.15); color:rgba(255,255,255,0.8);">See Our Products</a>
+        </div>
+        <div class="hero-social-proof">
+          <div class="avatars">
+            <img src="https://i.pravatar.cc/80?img=1" alt="user"/>
+            <img src="https://i.pravatar.cc/80?img=5" alt="user"/>
+            <img src="https://i.pravatar.cc/80?img=9" alt="user"/>
+            <img src="https://i.pravatar.cc/80?img=12" alt="user"/>
+          </div>
+          <div class="proof-text"><strong>4,200+ teams</strong> already saving 12hrs/week</div>
+        </div>
+      </div>
+
+      <div class="hero-visual" style="animation: fadeIn 1s ease 0.4s both;">
+        <div class="hero-float-card hfc-1">
+          <div class="hfc-label">Time Saved This Week</div>
+          <div class="hfc-val">12.4h</div>
+          <div class="hfc-sub">↑ 23% vs last week</div>
+        </div>
+        <div class="hero-img-main">
+          <img src="images/problem.jpeg" alt="Team using Spark Labs productivity tools"/>
+        </div>
+        <div class="hero-float-card hfc-2">
+          <div class="hfc-label">Tasks Automated</div>
+          <div class="hfc-val">847</div>
+          <div class="hfc-sub" style="color:var(--orange);">Today alone 🔥</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACTION BAR -->
+  <div class="traction-bar">
+    <div class="traction-grid">
+      <div class="anim"><div class="trac-num">4,200+</div><div class="trac-label">Teams Onboarded</div></div>
+      <div class="anim"><div class="trac-num">$1.2M</div><div class="trac-label">ARR — Year 1</div></div>
+      <div class="anim"><div class="trac-num">12hrs</div><div class="trac-label">Avg. Weekly Savings</div></div>
+      <div class="anim"><div class="trac-num">98%</div><div class="trac-label">Customer Satisfaction</div></div>
+    </div>
+  </div>
+
+  <!-- PROBLEM / SOLUTION -->
+  <section class="container" style="padding: 6rem 2rem;">
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+      <div class="anim">
+        <span class="eyebrow">The Problem</span>
+        <h2 class="section-title">TEAMS ARE <span class="line-through">BROKEN</span><br><span class="accent">DROWNING.</span></h2>
+        <p style="color: var(--text-mid); line-height: 1.9; margin-bottom: 1.5rem;">The average knowledge worker wastes <strong>2.5 hours per day</strong> on repetitive tasks — scheduling, summarising, reformatting, chasing updates — that software should be doing for them.</p>
+        <p style="color: var(--text-dim); font-family: var(--font-serif); font-size: 1.1rem; font-style: italic; line-height: 1.8;">"The biggest lie in business today is that being busy means being productive."</p>
+        <p style="color: var(--text-dim); font-size: 0.8rem; margin-top: 0.5rem;">— Maya Chen, Co-Founder & CEO of Spark Labs</p>
+      </div>
+      <div class="anim" style="border-radius:18px; overflow:hidden; height:400px; box-shadow: var(--shadow-lg);">
+        <img src="images/hero-team.jpg" alt="Frustrated worker at laptop" style="height:100%;"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT FEATURES SNAPSHOT -->
+  <section style="background: var(--warm); padding: 6rem 2rem; border-top: var(--border); border-bottom: var(--border);">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:3.5rem;">
+        <span class="eyebrow anim">Our Solution</span>
+        <h2 class="section-title anim">THREE TOOLS.<br><span class="accent">ONE PLATFORM.</span></h2>
+      </div>
+      <div class="product-grid">
+        <div class="product-card anim">
+          <div class="product-img">
+            <img src="images/product-brief.jpg" alt="Spark Brief"/>
+          </div>
+          <div class="product-body">
+            <div class="product-tag">AI Writing</div>
+            <h3>Spark Brief</h3>
+            <p>Turn a 60-minute meeting into a crisp 5-line summary in seconds. Our AI reads transcripts so you don't have to.</p>
+          </div>
+        </div>
+        <div class="product-card anim">
+          <div class="product-img">
+            <img src="images/product-flow.jpeg" alt="Spark Flow"/>
+          </div>
+          <div class="product-body">
+            <div class="product-tag">Automation</div>
+            <h3>Spark Flow</h3>
+            <p>Build no-code automation workflows that connect your apps, assign tasks, and eliminate repetitive admin forever.</p>
+          </div>
+        </div>
+        <div class="product-card anim">
+          <div class="product-img">
+            <img src="images/team-maya.png" alt="Spark Insight"/>
+          </div>
+          <div class="product-body">
+            <div class="product-tag">Analytics</div>
+            <h3>Spark Insight</h3>
+            <p>Real-time team productivity dashboards that surface bottlenecks and suggest improvements powered by AI.</p>
+          </div>
+        </div>
+      </div>
+      <p style="text-align:center; margin-top:2.5rem;" class="anim"><a href="services.html" class="btn btn-dark">Explore All Products →</a></p>
+    </div>
+  </section>
+
+  <!-- VIDEO SECTION -->
+  <section class="container" style="padding: 6rem 2rem;">
+    <div style="text-align:center; margin-bottom:2.5rem;">
+      <span class="eyebrow anim">See It In Action</span>
+      <h2 class="section-title anim">WATCH HOW SPARK<br><span class="accent">LABS WORKS</span></h2>
+    </div>
+    <div class="anim" style="border-radius:20px; overflow:hidden; max-width:900px; margin:0 auto; aspect-ratio:16/9; box-shadow: var(--shadow-lg); border: var(--border);">
+      <iframe src="https://www.youtube.com/shorts/xkA4g61YZXk" title="Start up Product Demo"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen style="width:100%; height:100%; border:none;"></iframe>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section style="background: var(--ink); padding: 6rem 2rem;">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:3rem;">
+        <span class="eyebrow anim">What People Say</span>
+        <h2 class="section-title anim" style="color:var(--white);">THEY <span style="color:var(--orange);">LOVE</span> IT.</h2>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.4rem;">
+        <div class="anim" style="background:var(--ink-2); border:1px solid rgba(255,255,255,0.08); border-radius:var(--radius); padding:2rem;">
+          <p style="color:rgba(255,255,255,0.65); font-size:0.95rem; line-height:1.8; margin-bottom:1.2rem;">"Spark Brief alone saved our team 3 hours a week. I can't imagine going back to taking manual notes."</p>
+          <div style="display:flex; align-items:center; gap:0.8rem;">
+            <img src="https://i.pravatar.cc/48?img=16" alt="Testimonial" style="width:40px;height:40px;border-radius:50%;border:2px solid var(--orange);"/>
+            <div><div style="color:var(--white); font-size:0.88rem; font-weight:600;">Priya Mehta</div><div style="color:var(--orange); font-size:0.75rem;">Head of Ops, Nimbus Inc.</div></div>
+          </div>
+        </div>
+        <div class="anim" style="background:var(--orange); border-radius:var(--radius); padding:2rem;">
+          <p style="color:rgba(255,255,255,0.85); font-size:0.95rem; line-height:1.8; margin-bottom:1.2rem;">"Spark Flow replaced 4 different Zapier subscriptions. Cleaner, smarter, and half the price."</p>
+          <div style="display:flex; align-items:center; gap:0.8rem;">
+            <img src="https://i.pravatar.cc/48?img=33" alt="Testimonial" style="width:40px;height:40px;border-radius:50%;border:2px solid white;"/>
+            <div><div style="color:var(--white); font-size:0.88rem; font-weight:600;">James Osei</div><div style="color:rgba(255,255,255,0.7); font-size:0.75px;">CTO, BuildFast</div></div>
+          </div>
+        </div>
+        <div class="anim" style="background:var(--ink-2); border:1px solid rgba(255,255,255,0.08); border-radius:var(--radius); padding:2rem;">
+          <p style="color:rgba(255,255,255,0.65); font-size:0.95rem; line-height:1.8; margin-bottom:1.2rem;">"The ROI is insane. We recouped the subscription cost in the first week just from meeting summaries."</p>
+          <div style="display:flex; align-items:center; gap:0.8rem;">
+            <img src="https://i.pravatar.cc/48?img=47" alt="Testimonial" style="width:40px;height:40px;border-radius:50%;border:2px solid var(--orange);"/>
+            <div><div style="color:var(--white); font-size:0.88rem; font-weight:600;">Sofia Reyes</div><div style="color:var(--orange); font-size:0.75rem;">Founder, Luma Digital</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section style="background:var(--orange); padding:4rem 2rem; text-align:center;">
+    <div class="container anim">
+      <h2 style="font-family:var(--font-display); font-size:clamp(2rem,4vw,3rem); color:var(--white); letter-spacing:-0.02em; margin-bottom:0.8rem;">READY TO SPARK YOUR TEAM?</h2>
+      <p style="color:rgba(255,255,255,0.8); max-width:480px; margin:0 auto 2rem;">Join 4,200+ teams already transforming how they work. No credit card required for your 14-day trial.</p>
+      <a href="contact.html" class="btn" style="background:var(--white); color:var(--orange); font-size:1rem; padding:1rem 2.5rem;">Start Free — 14 Days ↗</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.3rem;">
+          <div class="logo-spark">⚡</div>
+          <span class="logo-name" style="color:var(--white);">Spark<span>Labs</span></span>
+        </div>
+        <p>AI productivity tools for modern teams. Founded 2023, San Francisco.</p>
+      </div>
+      <div class="footer-col"><h5>Company</h5><ul>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Products</a></li><li><a href="model.html">Business Model</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Products</h5><ul>
+        <li><a href="services.html">Spark Brief</a></li>
+        <li><a href="services.html">Spark Flow</a></li>
+        <li><a href="services.html">Spark Insight</a></li>
+        <li><a href="services.html">Enterprise Suite</a></li>
+      </ul></div>
+      <div class="footer-col"><h5>Get in Touch</h5>
+        <p>📍 SF & remote-first</p>
+        <p>📧 hello@sparklabs.io</p>
+        <p>🐦 @SparkLabsHQ</p>
+        <a href="contact.html" class="btn btn-orange" style="margin-top:1rem; padding:0.6rem 1.4rem; font-size:0.82rem;">Investor Inquiries</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Spark Labs Inc. All rights reserved.</span>
+      <div style="display:flex;gap:1.5rem;"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Press Kit</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
